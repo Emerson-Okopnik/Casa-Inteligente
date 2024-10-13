@@ -1,0 +1,27 @@
+.status.on {
+    filter: brightness(100%);
+}
+
+.status.off {
+    filter: brightness(50%);
+}
+
+.status.aberto {
+    opacity: 1;
+}
+
+.status.fechado {
+    opacity: 0.5;
+}
+
+.porta img {
+    height: 200px;
+    width: auto;
+    transition: all 0.3s ease;
+}
+
+.status.aberto,
+.status.fechado {
+    filter: none;
+}
+

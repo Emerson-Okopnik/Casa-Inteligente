@@ -1,0 +1,21 @@
+.status.on {
+    filter: brightness(100%);
+}
+
+.status.off {
+    filter: brightness(50%);
+}
+
+.status.alert {
+    filter: hue-rotate(180deg);
+}
+
+.status {
+    width: 80px;
+    height: auto;
+    transition: filter 0.3s ease;
+}
+
+.alarme {
+    filter: hue-rotate(150deg) saturate(150%);
+}
